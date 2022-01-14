@@ -1,0 +1,98 @@
+body {
+    background-color: #000000;
+    color: white;
+    outline: green solid 10px;  
+    padding: 20px;
+  }
+  
+  a {
+    color: #00cc66;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: green;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline green;
+    text-decoration-thickness: 4px;
+  }
+  
+  span {
+    font-size: 40px;
+    color: white !important;
+  }
+  
+  img {
+    width: 145px;
+    height: 145px;
+    border-radius: 40%;
+  }
+  
+  main {
+    column-count: 2;
+    column-gap: 70px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: green;
+    margin-bottom: 50px;
+  }
+  
+  #Perfil {
+    column-span: all;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  #Parti {
+    display: inline;
+  }
+  
+  #Parto {
+    display: inline;
+  }
+  
+  ol {
+    list-style: none; 
+    counter-reset: li;
+  }
+  
+  li::before {
+    content: counter(li);
+    color: green;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 1.1em;
+  }
+  
+  li {
+    counter-increment: li;
+  }
